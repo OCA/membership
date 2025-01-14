@@ -7,7 +7,7 @@
 {
     "name": "Membership extension",
     "summary": "Improves user experience of membership addon",
-    "version": "16.0.2.1.2",
+    "version": "16.0.3.0.0",
     "category": "Membership",
     "author": "Tecnativa, Onestein, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/vertical-association",
@@ -15,6 +15,7 @@
     "application": False,
     "installable": True,
     "depends": ["membership"],
+    "maintainers": ["rafaelbn", "yajo"],
     "data": [
         "security/membership_security.xml",
         "security/ir.model.access.csv",
